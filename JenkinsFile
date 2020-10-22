@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("SCM"){
             steps {
-                git credentialsId: '305c7351-5cd2-4c2c-84ee-f3a09439d700', url: 'https://github.com/jyothirn/gameoflife.git'
+               echo "welcome to git checkout"
             }
         }
     }
